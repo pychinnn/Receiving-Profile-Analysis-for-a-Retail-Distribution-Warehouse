@@ -17,16 +17,22 @@ The client recently took over operations of a Retail Distribution Warehouse. Due
 * **Observation**: **98%** of inbound activity consists of **"Loose" flows** (3,389 cartons and 1,862 units) compared to only 89 pallets.
 * **Bottleneck**: The facility is physically optimized for "Full Pallet" flows. Processing thousands of loose items manually has created a **disproportionate labour requirement** due to the **current infrastructure**.
 * **Insight**: The **"Pallet-in"** design is fundamentally at odds with the **"Carton-in"** reality of the business.
+<img width="549" height="538" alt="image" src="https://github.com/user-attachments/assets/2b7bc1a5-da34-465a-b10a-fd729d891902" />
+
 
 ### 2. Ordering Process Simulation: "Order by Requirement" vs "Order by Pallet"
 * **Observation**: Rounding up pallet quantities to the nearest half-pallet yielded a negligible increase in total pallet count (from 89 to 96). This confirms that current inbound volumes are significantly **below full-pallet thresholds** across the majority of the SKU profile.
 * **Bottleneck**: High-frequency handling of small units is the **primary labour driver**, not pallet storage.
 * **Insight**: The high ratio of loose cartons or units indicates a mature **Just-In-Time (JIT) inventory strategy**.
+<img width="540" height="538" alt="image" src="https://github.com/user-attachments/assets/3d9fe7e3-e0c2-488a-b455-0969eb4e9981" />
+
 
 ### 3. Incoming Delivery Allocation
 * **Observation**: The data reveals significant inbound volatility, with Monday acting as a peak inbound day. At an average 213 touches per day, this volume is nearly **185% higher than the daily average of 75**. This indicates a "front-loaded" supply chain schedule that exceeds current baseline capacity.
 * **Bottleneck**: The Monday surge creates a throughput bottleneck at the loading dock. This high-volume arrival leads to dock congestion, which negatively **impacts turnaround time** and increases the **risk of safety incidents** and **detention fees for carriers**.
 * **Insight**: There is a low capacity utilization rate on Wednesdays, Fridays, and Saturdays. This suggests **labour underutilization** and **fixed-cost leakage**, where overhead remains constant despite a drop in productive output.
+<img width="989" height="590" alt="image" src="https://github.com/user-attachments/assets/46238edf-c432-4080-8596-fcb3a10cc079" />
+
 
 ## Recommendations
 Based on the data analysis, I proposed the following turnaround strategy to the client:
