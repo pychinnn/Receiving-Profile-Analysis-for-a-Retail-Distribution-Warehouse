@@ -36,8 +36,8 @@ The client recently took over operations of a Retail Distribution Warehouse. Due
 
 ## Recommendations
 Based on the data analysis, I proposed the following turnaround strategy to the client:
-**Facilily and Process Improvement**: The facility is physically designed for "Pallet-in", but the business model is actually "Carton-in / Unit-in". This is the root cause of the fulfilment gap.
-**Quarterly Throughput Analysis**: A 3-month transitional operation faced throughput instability. To mitigate this, a quarterly operational audit must be implemented to ensure that handling processes and labour allocation stay synchronized with the inventory requirements and SKU profiles.
-**Alignment with Suppliers**:The receiving workload could be leveled across the week by collaborating with Procurement and Logistics to pre-plan the incoming deliveries.
+* **Optimize handling for carton-heavy operations**: Since 98% of inbound volume consists of loose cartons or units, implement carton-specific processing workflows to improve processing efficiency.
+* **Implement continuous monitoring**: Track daily inbound volume, labour utilization, and handling time to to enable real-time operational adjustments instead of relying on periodic audits.
+* **Introduce delivery scheduling system**: Collaborate with suppliers to implement appointment-based deliveries. Shifting approximately 20-30% of Monday inbound volume to mid-week (Wednesday - Friday) could reduce peak-day congestion and improve dock throughput, leading more balanced labour utilization.
 
 *Note: The data in this repository has been anonymized to protect client confidentiality.*
